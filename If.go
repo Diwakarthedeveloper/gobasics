@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	heistReady := true
   
-	heistReady = false
+	//heistReady = false
   
   if heistReady {
     fmt.Println("Let's Go!")
