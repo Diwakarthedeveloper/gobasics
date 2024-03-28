@@ -27,12 +27,7 @@ if isHeistOn == true && openedVault >= 70 {
   fmt.Println("vault can’t be opened.",isHeistOn)
 }
 leftSafely := rand.Intn(5)
-if isHeistOn == true {
-  switch leftSafely{
-    
-  }
-
-}
+if isHeistOn == true
 
 
 
