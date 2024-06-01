@@ -6,7 +6,7 @@ import "fmt"
 
 // Update marsYear so that it takes earthYears
 // As a parameter
-func computeMarsYears(earthYears int) int {
+func computeMarsYears(earthYears int) int { //  last int is the data type of value to be returned
 
 	earthDays := earthYears * 365
 	marsYears := earthDays / 687
