@@ -6,7 +6,7 @@ func AreaOfRectangle(length, breadth float64) float64 { // AreaOfRectangle can b
 	return length * breadth
 }
 
-// unexported function - if name start with small letter it cannot be called in other packages.
+// unexported function - if name start with small letter it will
 func perimeterOfRectangle(length, breadth float64) float64 {
 	return 2 * (length + breadth)
 }

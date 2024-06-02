@@ -9,6 +9,6 @@ func AreaOfCircle(radius float64) float64 {
 }
 
 // unexported function
-func DiameterOfCircle(radius float64) float64 {
+func diameterOfCircle(radius float64) float64 {
 	return 2 * radius
 }
